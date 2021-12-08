@@ -50,7 +50,6 @@ public class GameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        arCamera = Camera.main;
 
         GameObject uiDoc = GameObject.FindWithTag("UIDoc");
         var root = uiDoc.GetComponent<UIDocument>().rootVisualElement;
