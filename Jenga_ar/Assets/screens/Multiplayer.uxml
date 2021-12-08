@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Style/style.uss" />
+    <ui:VisualElement style="width: 100%; height: 100%; background-color: rgb(228, 228, 228); align-items: center; color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); justify-content: flex-start; -unity-font-definition: none; -unity-font: url(&apos;/Assets/Fonts/rubik/Rubik-Regular.ttf&apos;);">
+        <ui:VisualElement name="Header" style="height: 80px; width: 100%; justify-content: space-between; align-items: center; top: 10px; flex-direction: row;">
+            <ui:Button display-tooltip-when-elided="true" name="BackButton" style="display: flex; visibility: visible; overflow: visible; background-image: url(&apos;/Assets/img/arrow-back.png&apos;); width: 30px; height: 30px; top: auto; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); margin-left: 20px; left: auto; justify-content: flex-start; margin-right: 130px;" />
+            <ui:Label text="Mulitplayer" display-tooltip-when-elided="true" style="-unity-font: url(&apos;/Assets/Fonts/rubik/Rubik-Regular.ttf&apos;); font-size: 29px; width: 180px; -unity-text-align: upper-center;" />
+            <ui:Label display-tooltip-when-elided="true" style="width: 180px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Rules" style="align-items: center; width: 278px; height: 244px; background-color: rgb(217, 217, 217); justify-content: flex-start; margin-top: 64px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+            <ui:Label text="Rules" display-tooltip-when-elided="true" style="font-size: 32px; color: rgb(0, 0, 0); width: 100%; padding-left: 8px;" />
+            <ui:Label text="Take turns and try to keep thee" display-tooltip-when-elided="true" style="width: 100%; padding-left: 8px; padding-top: 0; font-size: 16px;" />
+            <ui:Label text="tower upright. Are you playingg" display-tooltip-when-elided="true" style="width: 100%; padding-left: 8px; padding-top: 0; font-size: 16px;" />
+            <ui:Label text="it safe, or are you takingg riskss" display-tooltip-when-elided="true" style="width: 100%; padding-left: 8px; padding-top: 0; font-size: 16px;" />
+            <ui:Label text="and trying to sett the next guy" display-tooltip-when-elided="true" style="width: 100%; padding-left: 8px; padding-top: 0; font-size: 16px;" />
+            <ui:Label text="up? If the tower tilts on your turn" display-tooltip-when-elided="true" style="width: 100%; padding-left: 8px; padding-top: 0; font-size: 16px;" />
+            <ui:Label text="you&apos;re the loser!" display-tooltip-when-elided="true" style="width: 100%; padding-left: 8px; padding-top: 0; font-size: 16px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 100%; padding-left: 16px; padding-right: 16px; padding-top: 8px; align-items: center; justify-content: flex-start; padding-bottom: 40px;">
+            <ui:VisualElement style="margin-left: 0; flex-direction: row; align-items: center;">
+                <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="NameTextField" style="flex-direction: column; width: 224px; font-size: 16px;" />
+                <ui:Button display-tooltip-when-elided="true" name="AddButton" class="add-button-style" style="margin-top: 4px; margin-bottom: 4px;" />
+            </ui:VisualElement>
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="PlayerScrollView" style="width: 278px; height: 160px; background-color: rgb(255, 255, 255); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" />
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="button-style" style="width: 278px; height: 80px; bottom: -77px; color: rgba(255, 255, 255, 255); -unity-font: url(&apos;/Assets/Fonts/rubik/Rubik-Regular.ttf&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
